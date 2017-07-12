@@ -19,3 +19,16 @@ import "phoenix_html"
 // paths "./socket" or full ones "web/static/js/socket".
 
 // import socket from "./socket"
+
+import React from "react"
+import ReactDOM from "react-dom"
+
+import HelloJSX from "./hello"
+
+var main = document.getElementById("react-main")
+if (main) {
+    ReactDOM.render(
+        <HelloJSX/>,
+        main
+    )
+}
