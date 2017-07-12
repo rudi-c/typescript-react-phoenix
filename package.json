@@ -13,8 +13,12 @@
     "react-dom": "^15.6.1"
   },
   "devDependencies": {
+    "@types/react": "^15.0.37",
+    "@types/react-dom": "^15.5.1",
+    "typescript": "^2.4.1",
+    "typescript-brunch": "github:rudi-c/typescript-brunch",
     "babel-brunch": "~6.0.0",
-    "brunch": "2.7.4",
+    "brunch": "2.10.9",
     "clean-css-brunch": "~2.0.0",
     "css-brunch": "~2.0.0",
     "javascript-brunch": "~2.0.0",

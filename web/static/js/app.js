@@ -24,11 +24,16 @@ import React from "react"
 import ReactDOM from "react-dom"
 
 import HelloJSX from "./hello"
+import WorldTSX from "./world"
 
 var main = document.getElementById("react-main")
 if (main) {
     ReactDOM.render(
-        <HelloJSX/>,
+        (<div>
+           <HelloJSX/>
+           <WorldTSX/>
+         </div>
+        ),
         main
     )
 }
