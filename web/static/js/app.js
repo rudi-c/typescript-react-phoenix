@@ -19,3 +19,10 @@ import "phoenix_html"
 // paths "./socket" or full ones "web/static/js/socket".
 
 // import socket from "./socket"
+
+import render from "./react-entry"
+
+var main = document.getElementById("react-main")
+if (main) {
+    render(main)
+}
