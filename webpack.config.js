@@ -15,6 +15,10 @@ const config = {
     module: {
         rules: [
             {
+                test: /\.tsx?$/,
+                use: ["babel-loader", "ts-loader"]
+            },
+            {
                 test: /\.jsx?$/,
                 use: "babel-loader"
             },

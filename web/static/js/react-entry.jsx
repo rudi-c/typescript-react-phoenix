@@ -1,6 +1,8 @@
 import * as React from "react"
 import * as ReactDOM from "react-dom"
 
+import WorldTSX from "./world"
+
 class HelloJSX extends React.Component {
     render() {
         var type = "JSX";
@@ -10,7 +12,10 @@ class HelloJSX extends React.Component {
 
 export default function render(node) {
     ReactDOM.render(
-        <HelloJSX/>,
+        (<div>
+           <HelloJSX/>
+           <WorldTSX/>
+         </div>),
         node
     )
 }
